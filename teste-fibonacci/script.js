@@ -23,3 +23,7 @@ function isFibonacci(number) {
     }
 }
 
+let number = Number(prompt("Por favor, digite um número para verificar se ele pertence a sequência de Fibonacci"))
+
+isFibonacci(number)
+
