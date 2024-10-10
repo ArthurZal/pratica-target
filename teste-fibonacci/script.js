@@ -3,8 +3,8 @@ function isFibonacci(number) {
     let a = 0;
     let b = 1;
 
-    if (number === a || number === b) {
-        return alert(`O número ${number} pertence a sequência Fibonacci`);
+    if (number === 0 || number === 1) {
+        return alert(`O número ${number} pertence a sequência de Fibonacci`);
     }
 
     while (b < number) {
@@ -14,5 +14,12 @@ function isFibonacci(number) {
         a = temporaryValue;
     }
 
-
+    if (b === number) {
+        
+        return alert(`O número ${number} pertence a sequência de Fibonacci`);
+    
+    } else {
+        return alert(`O número ${number} NÃO pertence a sequência de Fibonacci`);
+    }
 }
+
